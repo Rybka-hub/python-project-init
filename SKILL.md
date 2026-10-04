@@ -1,6 +1,8 @@
 ---
 name: python-project-init
 description: "Przygotuj strukturę i .gitignore nowego projektu Python. Używaj przy inicjalizacji aplikacji lub jednorazowego skryptu, nie przy zwykłym rozwijaniu istniejącego projektu."
+metadata:
+  version: "1.0.0"
 ---
 
 # Praca agentowa nad aplikacjami Python
