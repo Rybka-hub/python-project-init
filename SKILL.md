@@ -13,7 +13,7 @@ Przygotuj szkielet nowego projektu Python zgodnie ze standardem użytkownika. Te
 
 - Przeczytaj [Python.md](Python.md) i zastosuj wskazaną strukturę oraz `.gitignore`. Dopuszczone uproszczenia dobierz do rodzaju projektu.
 - Ustal katalog docelowy na podstawie zlecenia. Przed zapisem sprawdź jego zawartość i istniejące repozytorium; zachowaj wcześniejsze pliki i unikaj zagnieżdżania repozytoriów.
-- Utwórz potrzebne katalogi i początkowe pliki. Pliki oraz środowiska generowane przygotuj właściwymi narzędziami, bez pozornych blokad zależności i wymyślonych wersji.
+- Utwórz potrzebne katalogi i początkowe pliki. Pliki oraz środowiska generowane przygotuj właściwymi narzędziami, bez wymyślonych wersji zależności.
 - Zainicjalizuj lokalny Git, jeśli katalog nie należy do repozytorium. Nie twórz commita ani nie publikuj projektu bez polecenia użytkownika.
 - Sprawdź, czy dane wejściowe, wyniki i lokalne środowisko są ignorowane, a bezpieczne wzory konfiguracji oraz kod pozostają dostępne do wersjonowania.
 

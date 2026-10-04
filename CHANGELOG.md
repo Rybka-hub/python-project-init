@@ -2,6 +2,11 @@
 
 Opisujemy tutaj zmiany skilla, jego specyfikacji i dołączonych materiałów. Zmiany przygotowywane do kolejnego wydania zapisujemy najpierw pod nagłówkiem „Niewydane”.
 
+## Niewydane
+
+- W strukturze projektu zastąpiono `requirements.lock.txt` i `requirements-dev.lock.txt` wymaganym `requirements.txt`.
+- Doprecyzowano tworzenie `requirements.txt` także wtedy, gdy projekt nie ma jeszcze zewnętrznych zależności.
+
 ## 1.0.0 — 2026-10-04
 
 Pierwsze oznaczone wydanie skilla `python-project-init`.

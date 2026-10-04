@@ -23,8 +23,7 @@ projekt/
 ├── .env.example                # Bezpieczny wzór zmiennych środowiskowych
 ├── .python-version             # Wersja Pythona dla projektu
 ├── pyproject.toml              # Konfiguracja projektu i zależności
-├── requirements.lock.txt       # Dokładne wersje zależności aplikacji
-├── requirements-dev.lock.txt   # Dokładne wersje aplikacji i narzędzi do pracy
+├── requirements.txt            # Biblioteki potrzebne do pracy z projektem
 ├── data/
 │   ├── input/                  # Materiały dostarczane przez użytkownika
 │   └── output/                 # Wygenerowane wyniki
@@ -39,7 +38,9 @@ projekt/
     └── test_*.py               # Rzeczywiste pliki testowe
 ```
 
-`test_*.py` oznacza wzorzec nazw plików, nie dosłowną nazwę. `conftest.py` dodaj, gdy potrzebne są wspólne fixtures. Nazwy plików blokady zależności dostosuj, jeśli projekt korzysta z narzędzia używającego innej blokady.
+`test_*.py` oznacza wzorzec nazw plików, nie dosłowną nazwę. `conftest.py` dodaj, gdy potrzebne są wspólne fixtures.
+
+`requirements.txt` jest wymagany i zastępuje `requirements.lock.txt` oraz `requirements-dev.lock.txt`. Zawiera zależności projektu do instalacji przez `pip install -r requirements.txt`. Jeśli projekt nie ma jeszcze zewnętrznych zależności, utwórz ten plik z krótkim komentarzem. Nie wpisuj wymyślonych wersji; zadbaj o zgodność z zależnościami deklarowanymi w `pyproject.toml`, jeśli są tam podane.
 
 Pliki dokumentacji uzupełnij zwięzłą treścią dopasowaną do tworzonego projektu.
 

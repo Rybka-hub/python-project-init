@@ -5,6 +5,7 @@ Skill **`python-project-init`** przygotowuje uporządkowany szkielet nowego proj
 ## Co robi
 
 - Tworzy strukturę projektu z kodem w `src/`, miejscem na testy i dokumentacją.
+- Tworzy wymagany `requirements.txt` zamiast `requirements.lock.txt` i `requirements-dev.lock.txt`.
 - Wydziela `data/input/` na materiały użytkownika i `data/output/` na wyniki.
 - Przygotowuje `.gitignore` dla środowiska Pythona, sekretów, danych i plików generowanych.
 - Uwzględnia prostszy układ dla jednorazowego skryptu.
